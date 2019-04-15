@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="1" android:id="false" android:background="000" android:layout_width="-1" android:layout_height="-1">
+				<LinearLayout android:gravity="0x10" android:layout_gravity="0x10" android:orientation="0" android:padding="10dp" android:layout_width="-1" android:layout_height="-2">
+					<de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:visibility="2" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable/default_profile.png" />
+					<TextView android:textAppearance="{2:16842818}" android:textColor="ffffff" android:gravity="0x10" android:layout_gravity="0x10" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:singleLine="true" fontPath="fonts/Montserrat-Bold.ttf" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="eeeeee" android:layout_width="-1" android:layout_height="-1">
+				<LinearLayout android:orientation="0" android:background="ffffff" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="1dp">
+					<RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1077936128}">
+						<TextView android:textAppearance="{2:16842818}" android:textSize="12sp" android:textColor="000" android:gravity="0x10" android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:text=" " android:singleLine="true" android:drawableLeft="res/drawable-xxhdpi-v4/ic_account_balance_wallet_black.png" android:layout_weight="{4:1077936128}" android:layout_centerVertical="true" fontPath="fonts/Montserrat-Regular.ttf" />
+						<ProgressBar android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@android:style/Widget.Material.Light.ProgressBar.Small" />
+					</RelativeLayout>
+					<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1077936128}" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+						<Button android:textAppearance="resourceId:0x7f0f00f2" android:textSize="10sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Tambah" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084" />
+						<Button android:textAppearance="resourceId:0x7f0f00f2" android:textSize="10sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Riwayat" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:paddingBottom="60dp" android:layout_width="-1" android:layout_height="-1">
+				<Button android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Pengaturan Akun" android:drawableLeft="res/drawable-xxhdpi-v4/ic_account_circle_black.png" style="resourceId:0x7f0f0198" />
+				<Button android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Kirim Pesan" android:drawableLeft="res/drawable-xxhdpi-v4/ic_chat_bubble_outline_black.png" style="resourceId:0x7f0f0198" />
+				<Button android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Biaya Pengiriman" android:drawableLeft="res/drawable-xxhdpi-v4/ic_local_shipping_black.png" style="resourceId:0x7f0f0198" />
+				<Button android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Informasi Pembayaran" android:drawableLeft="res/drawable-xxhdpi-v4/ic_payment_black.png" style="resourceId:0x7f0f0198" />
+				<Button android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Konfirmasi Pembayaran" android:drawableLeft="res/drawable-xxhdpi-v4/ic_confirmation_number_black.png" style="resourceId:0x7f0f0198" />
+				<Button android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Tentang" android:drawableLeft="res/drawable-xxhdpi-v4/ic_store_black.png" style="resourceId:0x7f0f0198" />
+				<Button android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Hubungi" android:drawableLeft="res/drawable-xxhdpi-v4/ic_contact_support_black.png" style="resourceId:0x7f0f0198" />
+				<Button android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Testimoni" android:drawableLeft="res/drawable-xxhdpi-v4/ic_rate_review_black.png" style="resourceId:0x7f0f0198" />
+				<Button android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Perbarui Aplikasi" android:drawableLeft="res/drawable-xxhdpi-v4/ic_system_update_black.png" style="resourceId:0x7f0f0198" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

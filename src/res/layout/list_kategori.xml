@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textAppearance="{2:16842818}" android:gravity="0x10" android:id="false" android:background="res/drawable/button_light.xml" android:padding="15dp" android:layout_width="-1" android:layout_height="-2" android:text="Medium Text" android:singleLine="true" />
+</LinearLayout>

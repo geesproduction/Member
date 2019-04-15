@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-1">
+	<ListView android:id="false" android:background="eeeeee" android:padding="10dp" android:scrollbars="0x0" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:listSelector="resourceId:0x106000d" android:drawSelectorOnTop="false" android:stackFromBottom="true" android:divider="eeeeee" android:dividerHeight="5dp" android:layout_above="false" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+	<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+		<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textAppearance="{2:16842818}" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:background="res/drawable/bubble_member.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:singleLine="true" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+			<EditText android:textAppearance="resourceId:0x7f0f002c" android:textColorHint="cccccc" android:id="false" android:background="0ffffff" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:hint="Ketik pesan" android:maxLines="3" android:layout_weight="{4:1065353216}" />
+			<ImageButton android:id="false" android:background="res/drawable/button_trans.xml" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/ic_send_black.png" android:text="Kirim" android:layout_weight="{4:0}" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_alignTop="false" android:layout_centerHorizontal="true">
+		<ProgressBar android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" style="{2:16842873}" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:padding="10dp" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+		<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/ic_chat_bubble_outline_black.png" />
+		<TextView android:textColor="000" android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text="Mulai mengobrol langsung dengan admin melalui menu Kirim Pesan ini!" />
+	</LinearLayout>
+</RelativeLayout>

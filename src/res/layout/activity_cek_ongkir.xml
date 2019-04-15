@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:background="ffffff" android:padding="10dp" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Provinsi" />
+			<Spinner android:id="false" android:layout_width="-1" android:layout_height="50dp" />
+			<ProgressBar android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:indeterminate="true" android:indeterminateOnly="true" style="{2:16842872}" />
+			<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Kota / Kabupaten" />
+			<Spinner android:id="false" android:layout_width="-1" android:layout_height="50dp" />
+			<ProgressBar android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:indeterminate="true" android:indeterminateOnly="true" style="{2:16842872}" />
+			<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Kecamatan" />
+			<Spinner android:id="false" android:layout_width="-1" android:layout_height="50dp" />
+			<ProgressBar android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:indeterminate="true" android:indeterminateOnly="true" style="{2:16842872}" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="dddddd" android:layout_width="-1" android:layout_height="1dp" />
+		<ProgressBar android:layout_gravity="0x1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" />
+		<ListView android:layout_gravity="0x1" android:id="false" android:background="ffffff" android:clipToPadding="true" android:layout_width="-1" android:layout_height="-2" android:listSelector="resourceId:0x106000d" />
+	</LinearLayout>
+	<com.google.android.gms.ads.AdView android:layout_gravity="0x1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-6383827200192790/8149173068" />
+</RelativeLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="resourceId:0x106000e" android:padding="10dp" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="0" android:background="res/drawable/rounded_bg.xml" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<TextView android:textAppearance="{2:16842818}" android:textColor="222222" android:textColorHint="666666" android:gravity="0x13" android:id="false" android:background="resourceId:0x106000d" android:padding="2dp" android:layout_width="-1" android:layout_height="-2" android:hint="Mau cari apa?" android:singleLine="true" android:drawableLeft="res/drawable-xxhdpi-v4/ic_search_black_small.png" android:layout_weight="{4:0}" />
+			</LinearLayout>
+			<ImageButton android:id="false" android:background="res/drawable/button_trans.xml" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:src="res/drawable-xxhdpi-v4/ic_notification_off.png" android:layout_weight="{4:0}" />
+			<ImageButton android:id="false" android:background="res/drawable/button_trans.xml" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:src="res/drawable-xxhdpi-v4/ic_chat_off.png" android:layout_weight="{4:0}" />
+			<ImageButton android:id="false" android:background="res/drawable/button_trans.xml" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:src="res/drawable-xxhdpi-v4/ic_info_white.png" android:layout_weight="{4:0}" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="ffffff" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-1" android:layout_below="false" android:layout_alignParentLeft="true">
+			<com.facebook.shimmer.ShimmerFrameLayout android:layout_gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+				<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+					<include layout="res/layout/layout_home_placeholder.xml" />
+				</LinearLayout>
+			</com.facebook.shimmer.ShimmerFrameLayout>
+			<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<ScrollView android:layout_width="-1" android:layout_height="-2">
+					<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+						<ImageView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:adjustViewBounds="true" />
+						<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+							<com.daimajia.slider.library.SliderLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="200dp" android:layout_alignParentTop="true" />
+							<com.daimajia.slider.library.Indicators.PagerIndicator android:id="false" android:layout_margin="10dp" android:layout_alignParentLeft="false" android:layout_alignParentRight="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="resourceId:0x7f0f0004" />
+						</RelativeLayout>
+						<LinearLayout android:orientation="1" android:id="false" android:paddingLeft="10dp" android:paddingRight="10dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp" android:layout_marginBottom="20dp">
+							<LinearLayout android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+								<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084">
+									<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xxhdpi-v4/ic_print_black.png" android:adjustViewBounds="true" />
+									<TextView android:textSize="10dp" android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+								</LinearLayout>
+								<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084">
+									<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xxhdpi-v4/ic_print_black.png" android:adjustViewBounds="true" />
+									<TextView android:textSize="10dp" android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+								</LinearLayout>
+								<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084">
+									<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xxhdpi-v4/ic_print_black.png" android:adjustViewBounds="true" />
+									<TextView android:textSize="10dp" android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+								</LinearLayout>
+								<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084">
+									<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xxhdpi-v4/ic_print_black.png" android:adjustViewBounds="true" />
+									<TextView android:textSize="10dp" android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+								<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084">
+									<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xxhdpi-v4/ic_print_black.png" android:adjustViewBounds="true" />
+									<TextView android:textSize="10dp" android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+								</LinearLayout>
+								<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084">
+									<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xxhdpi-v4/ic_print_black.png" android:adjustViewBounds="true" />
+									<TextView android:textSize="10dp" android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+								</LinearLayout>
+								<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084">
+									<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xxhdpi-v4/ic_print_black.png" android:adjustViewBounds="true" />
+									<TextView android:textSize="10dp" android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+								</LinearLayout>
+								<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084">
+									<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xxhdpi-v4/ic_print_black.png" android:adjustViewBounds="true" />
+									<TextView android:textSize="10dp" android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+								</LinearLayout>
+							</LinearLayout>
+						</LinearLayout>
+						<WebView android:layout_gravity="0x1" android:id="false" android:background="ffffff" android:padding="10dp" android:visibility="2" android:clipToPadding="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" />
+						<LinearLayout android:orientation="1" android:id="false" android:background="eeeeee" android:paddingBottom="5dp" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+							<LinearLayout android:gravity="0x11" android:orientation="0" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+								<Button android:textAppearance="resourceId:0x7f0f00f2" android:textSize="12sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="PULSA" android:drawableTop="res/drawable-xxhdpi-v4/ic_pulsa.png" android:drawablePadding="10dp" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084" />
+								<Button android:textAppearance="resourceId:0x7f0f00f2" android:textSize="12sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="DATA" android:drawableTop="res/drawable-xxhdpi-v4/ic_data.png" android:drawablePadding="10dp" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084" />
+								<Button android:textAppearance="resourceId:0x7f0f00f2" android:textSize="12sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="LISTRIK" android:drawableTop="res/drawable-xxhdpi-v4/ic_listrik.png" android:drawablePadding="10dp" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084" />
+								<Button android:textAppearance="resourceId:0x7f0f00f2" android:textSize="12sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="LAINNYA" android:drawableTop="res/drawable-xxhdpi-v4/ic_menu_vertical.png" android:drawablePadding="10dp" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084" />
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+							<TextView android:textAppearance="{2:16842818}" android:id="false" android:background="ffffff" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Kategori" fontPath="fonts/Montserrat-Bold.ttf" />
+							<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp">
+								<ProgressBar android:layout_gravity="0x1" android:layout_width="-2" android:layout_height="-2" />
+							</LinearLayout>
+							<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+								<HorizontalScrollView android:id="false" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-2">
+									<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+										<GridView android:id="false" android:padding="10dp" android:clipToPadding="false" android:layout_width="-2" android:layout_height="-2" android:drawSelectorOnTop="true" android:horizontalSpacing="10dp" />
+									</LinearLayout>
+								</HorizontalScrollView>
+							</LinearLayout>
+							<com.bikinaplikasi.onlineshop.helper.ExpandableHeightGridView android:id="false" android:padding="10dp" android:scrollbars="0x0" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" android:drawSelectorOnTop="true" android:horizontalSpacing="5dp" android:verticalSpacing="5dp" android:numColumns="2" />
+						</LinearLayout>
+						<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="5dp">
+							<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+								<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="150dp">
+									<TextView android:textAppearance="{2:16842818}" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Produk Pilihan" fontPath="fonts/Montserrat-Bold.ttf" />
+								</LinearLayout>
+								<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="40dp">
+									<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+										<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+											<ProgressBar android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+										</LinearLayout>
+										<HorizontalScrollView android:id="false" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-2">
+											<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+												<GridView android:id="false" android:padding="10dp" android:scrollbars="0x0" android:clipToPadding="false" android:layout_width="850dp" android:layout_height="-1" android:drawSelectorOnTop="true" android:horizontalSpacing="10dp" android:verticalSpacing="10dp" />
+											</LinearLayout>
+										</HorizontalScrollView>
+									</LinearLayout>
+								</LinearLayout>
+							</RelativeLayout>
+						</LinearLayout>
+						<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="5dp">
+							<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+								<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="150dp">
+									<TextView android:textAppearance="{2:16842818}" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Produk Terlaris" fontPath="fonts/Montserrat-Bold.ttf" />
+								</LinearLayout>
+								<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="40dp">
+									<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+										<ProgressBar android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+									</LinearLayout>
+									<HorizontalScrollView android:id="false" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-2">
+										<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+											<GridView android:id="false" android:padding="10dp" android:scrollbars="0x0" android:clipToPadding="false" android:layout_width="850dp" android:layout_height="-1" android:drawSelectorOnTop="true" android:horizontalSpacing="10dp" android:verticalSpacing="10dp" />
+										</LinearLayout>
+									</HorizontalScrollView>
+								</LinearLayout>
+							</RelativeLayout>
+						</LinearLayout>
+						<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="5dp">
+							<TextView android:textAppearance="{2:16842818}" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Produk Terbaru" fontPath="fonts/Montserrat-Bold.ttf" />
+							<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+								<ProgressBar android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+							</LinearLayout>
+							<HorizontalScrollView android:id="false" android:scrollbars="0x0" android:layout_width="-2" android:layout_height="-2">
+								<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+									<GridView android:id="false" android:padding="10dp" android:scrollbars="0x0" android:clipToPadding="false" android:layout_width="850dp" android:layout_height="-2" android:drawSelectorOnTop="true" android:horizontalSpacing="10dp" android:verticalSpacing="10dp" />
+								</LinearLayout>
+							</HorizontalScrollView>
+						</LinearLayout>
+						<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+							<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+								<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="150dp" android:layout_alignParentLeft="false" android:layout_alignParentTop="true">
+									<TextView android:textAppearance="{2:16842818}" android:gravity="0x3" android:layout_gravity="0x3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:text="Produk" fontPath="fonts/Montserrat-Bold.ttf" />
+								</LinearLayout>
+								<LinearLayout android:orientation="1" android:id="false" android:padding="10dp" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="40dp" android:layout_alignParentTop="true">
+									<ProgressBar android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+								</LinearLayout>
+								<com.bikinaplikasi.onlineshop.helper.ExpandableHeightGridView android:id="false" android:padding="10dp" android:scrollbars="0x0" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="40dp" android:drawSelectorOnTop="true" android:horizontalSpacing="10dp" android:verticalSpacing="20dp" android:numColumns="2" android:layout_alignParentLeft="false" android:layout_alignParentTop="true" />
+							</RelativeLayout>
+							<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:id="false" android:background="res/drawable/rounded_button_layout.xml" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp">
+								<Button android:textColor="ffffff" android:id="false" android:background="res/drawable/rounded_button.xml" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:text="TAMPILKAN SEMUA" fontPath="fonts/Montserrat-Bold.ttf" />
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout android:orientation="1" android:id="false" android:padding="10dp" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+							<Button android:textAppearance="{2:16842818}" android:textSize="10sp" android:textStyle="0x1" android:gravity="0x13" android:layout_gravity="0x11" android:id="false" android:background="res/drawable/button_light.xml" android:paddingLeft="20dp" android:paddingTop="5dp" android:paddingRight="20dp" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" android:text="TAMPILKAN SEMUA KATEGORI" />
+						</LinearLayout>
+						<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="60dp" />
+					</LinearLayout>
+				</ScrollView>
+			</android.support.v4.widget.SwipeRefreshLayout>
+		</LinearLayout>
+		<com.google.android.gms.ads.AdView android:layout_gravity="0x1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-6383827200192790/8149173068" />
+	</RelativeLayout>
+</FrameLayout>

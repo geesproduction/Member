@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:background="000" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_alignParentBottom="false" android:layout_centerHorizontal="true">
+		<TextView android:textColor="ffffff" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Keranjang Belanja" style="resourceId:0x7f0f0036" />
+	</LinearLayout>
+	<ListView android:id="false" android:background="ffffff" android:layout_width="-2" android:layout_height="-1" android:drawSelectorOnTop="true" android:divider="resourceId:0x106000d" android:dividerHeight="0dp" android:layout_above="false" android:layout_below="false" />
+	<LinearLayout android:gravity="0x10" android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_above="false" android:layout_alignParentLeft="true">
+		<LinearLayout android:orientation="1" android:background="dddddd" android:layout_width="-1" android:layout_height="1dp" />
+		<LinearLayout android:orientation="1" android:padding="5dp" android:layout_width="-1" android:layout_height="-1">
+			<CheckBox android:textColor="ff757575" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Gunakan voucher?" />
+			<EditText android:textAppearance="resourceId:0x7f0f00f2" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:hint="Kode voucher" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/rounded_button_layout.xml" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+			<Button android:textSize="12dp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x15" android:id="false" android:background="res/drawable/button_trans.xml" android:paddingRight="10dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="BELANJA LAGI" android:layout_weight="{4:1065353216}" />
+			<Button android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/rounded_button.xml" android:paddingLeft="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Selesai Belanja" android:layout_weight="{4:1065353216}" fontPath="fonts/Montserrat-Bold.ttf" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:background="ffffff" android:padding="10dp" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_below="false" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+		<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/ic_shopping_cart_black.png" />
+		<TextView android:textColor="000" android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text="Keranjang belanja kosong, ayo mulai belanja sesuatu!" />
+	</LinearLayout>
+</RelativeLayout>

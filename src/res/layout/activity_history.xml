@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<WebView android:id="false" android:clipToPadding="true" android:layout_width="-1" android:layout_height="-1" />
+	<LinearLayout android:gravity="0x11" android:layout_gravity="0x1" android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_margin="1dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+		<ProgressBar android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="3dp" style="{2:16842873}" />
+		<TextView android:textAppearance="{2:16842818}" android:textSize="10dp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3dp" android:text="Loading" />
+	</LinearLayout>
+</RelativeLayout>

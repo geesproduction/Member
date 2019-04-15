@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:icon="res/drawable-xxhdpi-v4/ic_account_circle_black.png" android:id="false" android:title="Login" app:showAsAction="0x2" />
+	<item android:icon="res/drawable-xxhdpi-v4/ic_account_circle_black.png" android:id="false" android:title="Akun" app:showAsAction="0x2" />
+	<item android:icon="res/drawable/ic_chat_bubble_outline_black_24dp.xml" android:id="false" android:title="Kirim Pesan" app:showAsAction="0x2" />
+	<item android:icon="res/drawable/ic_favorite_black_24dp.xml" android:id="false" android:title="Favorit" app:showAsAction="0x2" />
+	<item android:icon="res/drawable/ic_history_black_24dp.xml" android:id="false" android:title="Pesanan" app:showAsAction="0x2" />
+	<item android:icon="res/drawable/ic_local_shipping_black_24dp.xml" android:id="false" android:title="Biaya Pengiriman" app:showAsAction="0x2" />
+	<item android:icon="res/drawable/ic_credit_card_black_24dp.xml" android:id="false" android:title="Pembayaran" app:showAsAction="0x2" />
+	<item android:icon="res/drawable/ic_receipt_black_24dp.xml" android:id="false" android:title="Konfirmasi Pembayaran" app:showAsAction="0x2" />
+	<item android:icon="res/drawable/ic_notifications_black_24dp.xml" android:id="false" android:title="Notifikasi" app:showAsAction="0x2" />
+	<item android:icon="res/drawable/ic_store_black_24dp.xml" android:id="false" android:title="Tentang" app:showAsAction="0x2" />
+	<item android:icon="res/drawable/ic_local_phone_black_24dp.xml" android:id="false" android:title="Hubungi" app:showAsAction="0x2" />
+	<item android:icon="res/drawable/ic_rate_review_black_24dp.xml" android:id="false" android:title="Testimoni" app:showAsAction="0x2" />
+	<item android:icon="res/drawable/ic_system_update_black_24dp.xml" android:id="false" android:title="Perbarui Aplikasi" app:showAsAction="0x2" />
+</menu>

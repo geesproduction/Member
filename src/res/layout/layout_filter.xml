@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="res/drawable/rounded_bg.xml" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textAppearance="{2:16842818}" android:textStyle="0x1" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Filter Harga" />
+			<LinearLayout android:orientation="1" android:background="dddddd" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" />
+			<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Harga Minimal" />
+			<EditText android:textAppearance="resourceId:0x7f0f00f2" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="25000" android:ems="10" android:digits="0123456789" android:inputType="0x1002" />
+			<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Harga Maksimal" />
+			<EditText android:textAppearance="resourceId:0x7f0f00f2" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="85000" android:ems="10" android:digits="0123456789" android:inputType="0x1002" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<Button android:textAppearance="resourceId:0x7f0f002c" android:id="false" android:background="res/drawable/button_light.xml" android:layout_width="-1" android:layout_height="-2" android:text="Hapus" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="000" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<Button android:textAppearance="resourceId:0x7f0f002c" android:textColor="ffffff" android:layout_gravity="0x1" android:id="false" android:background="res/drawable/button_trans.xml" android:layout_width="-1" android:layout_height="-2" android:text="Terapkan" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

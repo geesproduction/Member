@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="1" android:background="ffffff" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+				<TextView android:textAppearance="{2:16842818}" android:textColor="555555" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text=" " />
+				<TextView android:textAppearance="{2:16842816}" android:textStyle="0x1" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="3dp" android:text=" " fontPath="fonts/Montserrat-Bold.ttf" />
+				<TextView android:textAppearance="{2:16842818}" android:textColor="555555" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Biaya yang harus dibayarkan :" />
+				<TextView android:textAppearance="{2:16842816}" android:textSize="35dp" android:textStyle="0x1" android:gravity="0x1" android:layout_gravity="0x1" android:id="false" android:background="eeeeee" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" fontPath="fonts/Montserrat-Bold.ttf" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+				<TextView android:textAppearance="{2:16842818}" android:textColor="555555" android:id="false" android:background="ffffff" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="1dp" android:text="Pembayaran" />
+				<LinearLayout android:layout_gravity="0x1" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+					<ProgressBar android:id="false" android:layout_width="-2" android:layout_height="-2" style="{2:16842873}" />
+				</LinearLayout>
+				<WebView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" />
+				<TextView android:textAppearance="{2:16842818}" android:layout_gravity="0x1" android:id="false" android:background="ffffff" android:padding="10dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text=" " />
+			</LinearLayout>
+			<TextView android:textAppearance="{2:16842818}" android:textColor="555555" android:layout_gravity="0x1" android:id="false" android:background="ffffff" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" />
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp">
+				<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+					<LinearLayout android:orientation="1" android:id="false" android:background="000" android:layout_width="-1" android:layout_height="-2">
+						<Button android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/button_trans.xml" android:layout_width="-1" android:layout_height="-2" android:text="Konfirmasi Pembayaran" fontPath="fonts/Montserrat-Bold.ttf" />
+					</LinearLayout>
+					<TextView android:textAppearance="{2:16842818}" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:text="atau hubungi" />
+				</LinearLayout>
+				<WebView android:layout_gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" />
+				<Button android:textStyle="0x1" android:gravity="0x13" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="SMS:" android:drawableLeft="res/drawable-xxhdpi-v4/ic_sms.png" android:drawablePadding="10dp" style="resourceId:0x7f0f0084" />
+				<Button android:textStyle="0x1" android:gravity="0x13" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="WhatsApp:" android:drawableLeft="res/drawable-xxhdpi-v4/ic_wa.png" android:drawablePadding="10dp" style="resourceId:0x7f0f0084" />
+				<Button android:textStyle="0x1" android:gravity="0x13" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="BBM:" android:drawableLeft="res/drawable-xxhdpi-v4/ic_bbm.png" android:drawablePadding="10dp" style="resourceId:0x7f0f0084" />
+				<Button android:textStyle="0x1" android:gravity="0x13" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="LINE: " android:drawableLeft="res/drawable-xxhdpi-v4/ic_line.png" android:drawablePadding="10dp" style="resourceId:0x7f0f0084" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

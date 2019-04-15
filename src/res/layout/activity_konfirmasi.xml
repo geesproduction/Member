@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+		<LinearLayout android:orientation="1" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+				<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Kode Pesanan" />
+				<EditText android:textAppearance="resourceId:0x7f0f002c" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" />
+				<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Bukti Pembayaran" />
+				<ImageView android:id="false" android:layout_width="150dp" android:layout_height="-2" android:adjustViewBounds="true" />
+				<Button android:textAppearance="resourceId:0x7f0f002c" android:gravity="0x13" android:id="false" android:background="res/drawable/button_light.xml" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="Pilih Foto" android:drawableLeft="res/drawable-xxhdpi-v4/ic_photo_black.png" android:drawablePadding="5dp" style="resourceId:0x7f0f0084" />
+				<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/rounded_button_layout.xml" android:layout_width="-1" android:layout_height="-1">
+					<Button android:textAppearance="resourceId:0x7f0f002c" android:textStyle="0x1" android:textColor="ffffff" android:layout_gravity="0x1" android:id="false" android:background="res/drawable/rounded_button.xml" android:layout_width="-1" android:layout_height="-2" android:text="Kirim" fontPath="fonts/Montserrat-Bold.ttf" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="0x10" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_margin="20dp">
+			<ImageView android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}" app:srcCompat="res/drawable-xxhdpi-v4/ic_print_black.png" />
+			<TextView android:textColor="000" android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" android:text="Tidak terhubung ke printer. Pilih printer untuk memulai." android:layout_weight="{4:1065353216}" />
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/rounded_button_layout.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+				<Button android:textColor="ffffff" android:id="false" android:background="res/drawable/button_trans.xml" android:layout_width="-1" android:layout_height="-2" android:text="Pilih Printer" />
+			</LinearLayout>
+			<ScrollView android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+				<LinearLayout android:gravity="0x1" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+					<WebView android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+					<TextView android:typeface="3" android:id="false" android:padding="10dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+				</LinearLayout>
+			</ScrollView>
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/rounded_button_layout.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+				<Button android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:background="res/drawable/button_trans.xml" android:layout_width="-1" android:layout_height="-2" android:text="Print" />
+			</LinearLayout>
+			<CheckBox android:layout_gravity="0x1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Sertakan alamat" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:id="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="1" android:background="ffffff" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+				<LinearLayout android:orientation="1" android:background="ffffff" android:padding="10dp" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+					<TextView android:textAppearance="{2:16842818}" android:textStyle="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="PENERIMA" />
+					<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Nama Penerima" />
+					<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:ems="10" android:singleLine="true" android:inputType="0x61" />
+					<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Nomor Telepon" />
+					<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:ems="10" android:singleLine="true" android:digits="0123456789" android:inputType="0x3" />
+				</LinearLayout>
+				<LinearLayout android:layout_gravity="0x1" android:orientation="1" android:id="false" android:background="ffffff" android:padding="10dp" android:layout_width="-1" android:layout_height="-2">
+					<CheckBox android:textStyle="0x1" android:textColor="resourceId:0x1060010" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="DELIVERY" />
+				</LinearLayout>
+				<Button android:textAppearance="resourceId:0x7f0f002c" android:gravity="0x10" android:id="false" android:background="res/drawable/button_light.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Pilih lokasi tujuan" android:drawableLeft="res/drawable-xxhdpi-v4/ic_place_black.png" android:drawablePadding="10dp" style="resourceId:0x7f0f0084" />
+				<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:padding="10dp" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+					<TextView android:textAppearance="{2:16842818}" android:textStyle="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="ALAMAT" />
+					<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Alamat Lengkap" />
+					<EditText android:gravity="0x30" android:id="false" android:layout_width="-1" android:layout_height="-2" android:maxLines="5" android:lines="5" android:ems="10" android:inputType="0x20001" />
+					<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Kode Pos" />
+					<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:digits="0123456789" android:inputType="0x73" />
+					<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Provinsi" />
+					<Spinner android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="50dp" />
+					<ProgressBar android:layout_gravity="0x1" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:indeterminate="true" android:indeterminateTintMode="15" style="{2:16842872}" />
+					<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Kota / Kabupaten" />
+					<Spinner android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="50dp" />
+					<ProgressBar android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:indeterminate="true" android:indeterminateTintMode="15" style="{2:16842872}" />
+					<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Kecamatan" />
+					<Spinner android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="50dp" />
+					<ProgressBar android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:indeterminate="true" android:indeterminateTintMode="15" style="{2:16842872}" />
+					<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Layanan Pengiriman" />
+					<Spinner android:id="false" android:padding="5dp" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:spinnerMode="0" />
+					<ProgressBar android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:indeterminate="true" android:indeterminateTintMode="15" style="{2:16842872}" />
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:background="ffffff" android:padding="10dp" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+					<TextView android:textAppearance="{2:16842818}" android:textStyle="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="KETERANGAN TAMBAHAN" />
+					<EditText android:gravity="0x30" android:id="false" android:layout_width="-1" android:layout_height="-2" android:lines="3" android:ems="10" android:inputType="0x20001" />
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:padding="10dp" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+					<CheckBox android:textStyle="0x1" android:textColor="resourceId:0x1060010" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="1dp" android:text="DROPSHIP" />
+					<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:paddingTop="10dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Nama" />
+						<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Nama Pengirim" android:ems="10" android:singleLine="true" android:inputType="0x61" />
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Keterangan" />
+						<EditText android:gravity="0x33" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Keterangan Lainnya" android:lines="3" android:ems="10" android:inputType="0x20001" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/rounded_button_layout.xml" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp">
+				<Button android:textStyle="0x1" android:textColor="ffffff" android:layout_gravity="0x1" android:id="false" android:background="res/drawable/rounded_button.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="SELANJUTNYA" fontPath="fonts/Montserrat-Bold.ttf" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

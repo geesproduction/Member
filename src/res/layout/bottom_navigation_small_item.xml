@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="res/drawable/item_background.xml" android:layout_width="-1" android:layout_height="56dp" android:minWidth="104dp">
+	<ImageView android:gravity="0x11" android:layout_gravity="0x1" android:id="false" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="16dp" android:layout_marginBottom="7dp" />
+	<TextView android:textSize="14sp" android:textColor="747474" android:gravity="0x11" android:layout_gravity="0x51" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:layout_marginBottom="7dp" android:lines="1" android:alpha="{4:1065353216}" />
+	<TextView android:textSize="9sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x1" android:id="false" android:background="res/drawable/notification_background.xml" android:paddingLeft="3dp" android:paddingRight="3dp" android:layout_width="-2" android:layout_height="16dp" android:layout_marginLeft="16dp" android:layout_marginTop="14dp" android:minWidth="16dp" android:alpha="{4:0}" />
+</FrameLayout>

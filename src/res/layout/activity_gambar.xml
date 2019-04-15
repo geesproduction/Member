@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="000" android:layout_width="-1" android:layout_height="-1">
+	<android.support.v4.view.ViewPager android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+	<ImageButton android:id="false" android:background="res/drawable/button_trans.xml" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/ic_save_alt_white.png" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

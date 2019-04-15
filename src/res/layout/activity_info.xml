@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="eeeeee" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:id="false" android:paddingTop="20dp" android:paddingBottom="20dp" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+				<TextView android:textAppearance="{2:16842818}" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Aplikasi toko online ini dibuat secara GRATIS menggunakan aplikasi BIKIN APLIKASI : ONLINE SHOP. Ingin membuat aplikasi toko online sendiri? Download BIKIN APLIKASI : ONLINE SHOP kunjungi BIKINAPLIKASI.COM sekarang! GRATIS!" />
+				<View android:background="eeeeee" android:layout_width="-1" android:layout_height="1dp" />
+				<LinearLayout android:orientation="1" android:background="000" android:layout_width="-1" android:layout_height="-1">
+					<Button android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:background="res/drawable/button_trans.xml" android:layout_width="-1" android:layout_height="-2" android:text="DOWNLOAD BIKIN APLIKASI : ONLINE SHOP" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

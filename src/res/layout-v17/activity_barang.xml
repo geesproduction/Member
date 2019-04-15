@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="ffffff" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-1">
+	<com.nirhart.parallaxscroll.views.ParallaxScrollView xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" app:parallax_factor="{4:1072902963}">
+		<LinearLayout android:orientation="1" android:paddingBottom="80dp" android:layout_width="-1" android:layout_height="-1">
+			<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+				<com.daimajia.slider.library.SliderLayout android:id="false" android:background="ffffff" android:visibility="0" android:layout_width="-1" android:layout_height="200dp" />
+				<com.daimajia.slider.library.Indicators.PagerIndicator android:id="false" android:layout_margin="10dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="resourceId:0x7f0f0004" />
+			</RelativeLayout>
+			<LinearLayout android:orientation="1" android:background="ffffff" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<TextView android:textAppearance="{2:16842817}" android:textStyle="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:layout_toLeftOf="false" android:layout_toStartOf="false" fontPath="fonts/Montserrat-Bold.ttf" />
+					<ImageButton android:id="false" android:background="res/drawable/button_trans.xml" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/ic_favorite_border.png" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+				</RelativeLayout>
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+					<TextView android:textAppearance="{2:16842818}" android:textSize="13sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " />
+					<TextView android:textColor="ffffff" android:id="false" android:background="res/drawable/rounded_discount.xml" android:paddingLeft="5dp" android:paddingRight="5dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" />
+				</LinearLayout>
+				<TextView android:textAppearance="{2:16842818}" android:textStyle="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " fontPath="fonts/Montserrat-Bold.ttf" />
+				<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/rounded_gray.xml" android:padding="10dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+					<TextView android:textAppearance="{2:16842818}" android:textStyle="0x1" android:gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="GROSIR" android:drawableLeft="res/drawable-xxhdpi-v4/ic_variant.png" android:drawablePadding="5dp" fontPath="fonts/Montserrat-Regular.ttf" />
+					<LinearLayout android:orientation="1" android:background="dddddd" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" />
+					<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="false" android:layout_alignParentEnd="false" />
+					</RelativeLayout>
+					<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="false" android:layout_alignParentEnd="false" />
+					</RelativeLayout>
+					<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="false" android:layout_alignParentEnd="false" />
+					</RelativeLayout>
+					<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="false" android:layout_alignParentEnd="false" />
+					</RelativeLayout>
+					<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="false" android:layout_alignParentEnd="false" />
+					</RelativeLayout>
+				</LinearLayout>
+				<LinearLayout android:layout_gravity="0x1" android:orientation="1" android:id="false" android:padding="5dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+					<LinearLayout android:orientation="1" android:background="eeeeee" android:layout_width="-1" android:layout_height="1dp" android:layout_marginBottom="10dp" android:layout_weight="{4:1065353216}" />
+					<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+						<TextView android:textAppearance="{2:16842818}" android:gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Berat" android:drawableLeft="res/drawable-xxhdpi-v4/ic_weight.png" android:drawablePadding="5dp" android:layout_weight="{4:1065353216}" />
+						<TextView android:textAppearance="{2:16842818}" android:textStyle="0x1" android:gravity="0x15" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " android:layout_weight="{4:1065353216}" />
+					</LinearLayout>
+					<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_weight="{4:1065353216}">
+						<TextView android:textAppearance="{2:16842818}" android:gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Stok" android:drawableLeft="res/drawable-xxhdpi-v4/ic_stock.png" android:drawablePadding="5dp" android:layout_weight="{4:1065353216}" />
+						<TextView android:textAppearance="{2:16842818}" android:textStyle="0x1" android:gravity="0x15" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " android:layout_weight="{4:1065353216}" />
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+						<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:drawableLeft="res/drawable-xxhdpi-v4/ic_blank.png" android:drawablePadding="5dp" />
+						<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:drawableLeft="res/drawable-xxhdpi-v4/ic_blank.png" android:drawablePadding="5dp" />
+						<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:drawableLeft="res/drawable-xxhdpi-v4/ic_blank.png" android:drawablePadding="5dp" />
+						<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:drawableLeft="res/drawable-xxhdpi-v4/ic_blank.png" android:drawablePadding="5dp" />
+						<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:drawableLeft="res/drawable-xxhdpi-v4/ic_blank.png" android:drawablePadding="5dp" />
+						<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:drawableLeft="res/drawable-xxhdpi-v4/ic_blank.png" android:drawablePadding="5dp" />
+						<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:drawableLeft="res/drawable-xxhdpi-v4/ic_blank.png" android:drawablePadding="5dp" />
+						<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:drawableLeft="res/drawable-xxhdpi-v4/ic_blank.png" android:drawablePadding="5dp" />
+						<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:drawableLeft="res/drawable-xxhdpi-v4/ic_blank.png" android:drawablePadding="5dp" />
+						<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:drawableLeft="res/drawable-xxhdpi-v4/ic_blank.png" android:drawablePadding="5dp" />
+					</LinearLayout>
+				</LinearLayout>
+				<View android:background="eeeeee" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" />
+				<TextView android:textAppearance="{2:16842818}" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text=" " />
+				<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textAppearance="{2:16842818}" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Deskripsi Produk" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+					<ImageButton android:id="false" android:background="res/drawable/button_light.xml" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/ic_menu_vertical.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+				</RelativeLayout>
+				<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+					<ProgressBar android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" style="{2:16842873}" />
+				</LinearLayout>
+				<WebView android:id="false" android:layout_width="-1" android:layout_height="-2" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:background="ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+				<Button android:textAppearance="resourceId:0x7f0f00e3" android:textSize="12dp" android:textStyle="0x1" android:id="false" android:background="res/drawable/button_light.xml" android:padding="10dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Simpan Gambar" android:drawableLeft="res/drawable-xxhdpi-v4/ic_save_alt_black.png" android:layout_weight="{4:1065353216}" fontPath="fonts/Montserrat-Bold.ttf" />
+				<Button android:textAppearance="resourceId:0x7f0f00f2" android:id="false" android:background="res/drawable/button_light.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:drawableLeft="res/drawable-xxhdpi-v4/ic_copy.png" android:layout_weight="{4:1065353216}" />
+				<Button android:textAppearance="resourceId:0x7f0f00f2" android:id="false" android:background="res/drawable/button_light.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:drawableRight="res/drawable-xxhdpi-v4/ic_share_black.png" android:layout_weight="{4:1065353216}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:background="ffffff" android:paddingTop="10dp" android:layout_width="-1" android:layout_height="-1">
+				<Button android:gravity="0x13" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="BELI DI BUKALAPAK" android:drawableLeft="res/mipmap-xxxhdpi-v4/ic_logo_bukalapak.png" fontPath="fonts/Montserrat-Bold.ttf" style="resourceId:0x7f0f0084" />
+				<Button android:gravity="0x13" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="BELI DI TOKOPEDIA" android:drawableLeft="res/mipmap-xxxhdpi-v4/ic_logo_tokopedia.png" fontPath="fonts/Montserrat-Bold.ttf" style="resourceId:0x7f0f0084" />
+				<Button android:gravity="0x13" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="BELI DI SHOPEE" android:drawableLeft="res/mipmap-xxxhdpi-v4/ic_logo_shopee.png" fontPath="fonts/Montserrat-Bold.ttf" style="resourceId:0x7f0f0084" />
+			</LinearLayout>
+		</LinearLayout>
+	</com.nirhart.parallaxscroll.views.ParallaxScrollView>
+	<android.support.design.widget.CoordinatorLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+		<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" app:behavior_hideable="false" app:behavior_peekHeight="62dp" app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+			<LinearLayout android:background="dddddd" android:layout_width="-1" android:layout_height="1dp" />
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="60dp">
+				<LinearLayout android:gravity="0x13" android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+					<ImageButton android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-xxhdpi-v4/ic_whatsapp.png" android:tint="555555" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084" />
+					<ImageButton android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-xxhdpi-v4/ic_chat_bubble_outline_white.png" android:tint="555555" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x10" android:id="false" android:background="res/drawable/rounded_corner_button_layout.xml" android:layout_width="-1" android:layout_height="-1" android:layout_margin="5dp" android:layout_weight="{4:1065353216}">
+					<Button android:textColor="ffffff" android:id="false" android:background="res/drawable/rounded_corner_button.xml" android:layout_width="-1" android:layout_height="-2" android:text="BELI" />
+				</LinearLayout>
+			</LinearLayout>
+			<RelativeLayout android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+				<TextView android:textAppearance="{2:16842818}" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:text="Total" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" fontPath="fonts/Montserrat-Bold.ttf" />
+				<TextView android:textAppearance="{2:16842818}" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:text=" " android:layout_alignParentTop="true" android:layout_alignParentRight="true" fontPath="fonts/Montserrat-Bold.ttf" />
+			</RelativeLayout>
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+				<TextView android:textAppearance="{2:16842818}" android:layout_gravity="0x3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Pilih varian" />
+				<Spinner android:id="false" android:layout_width="-1" android:layout_height="40dp" android:spinnerMode="0" />
+				<TextView android:textAppearance="{2:16842818}" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:text="Catatan tambahan" />
+				<EditText android:textAppearance="{2:16842818}" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:maxLength="50" />
+				<TextView android:textAppearance="{2:16842818}" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:text="Jumlah barang" />
+				<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+					<ImageButton android:id="false" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-xxhdpi-v4/ic_min.png" android:tint="000" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084" />
+					<EditText android:enabled="true" android:textColor="000" android:gravity="0x11" android:id="false" android:focusable="true" android:layout_width="-1" android:layout_height="-1" android:text="1" android:ems="10" android:singleLine="true" android:digits="0123456789" android:layout_weight="{4:1065353216}" android:inputType="0x2" />
+					<ImageButton android:id="false" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-xxhdpi-v4/ic_plus.png" android:tint="000" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:id="false" android:background="res/drawable/rounded_corner_button_layout.xml" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+				<Button android:textStyle="0x1" android:textColor="ffffff" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/rounded_corner_button.xml" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/ic_add_shopping_cart_white.png" android:text="BELI" android:layout_alignParentBottom="true" fontPath="fonts/Montserrat-Bold.ttf" />
+			</LinearLayout>
+		</LinearLayout>
+	</android.support.design.widget.CoordinatorLayout>
+	<TextView android:textAppearance="{2:16842818}" android:textColor="ffffff" android:gravity="0x1" android:id="false" android:background="55000" android:padding="5dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5dp" android:text="Barang ini sudah ada di keranjang belanja" />
+</RelativeLayout>

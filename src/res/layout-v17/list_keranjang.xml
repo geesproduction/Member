@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="ffffff" android:padding="5dp" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:padding="10dp" android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="5dp" android:adjustViewBounds="true" />
+		<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:layout_toRightOf="false" android:layout_alignParentTop="true" />
+		<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:layout_toRightOf="false" android:layout_below="false" />
+		<TextView android:textAppearance="{2:16842818}" android:textStyle="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " android:layout_below="false" android:layout_alignParentRight="true" android:layout_alignParentBottom="false" android:layout_alignParentEnd="true" fontPath="fonts/Montserrat-Bold.ttf" />
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" android:layout_alignParentLeft="true" android:layout_alignParentRight="false" android:layout_alignParentStart="false">
+			<ImageButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/ic_create_black.png" android:layout_weight="{4:1065353216}" style="@android:style/Widget.Material.Light.Button.Borderless.Small" />
+			<ImageButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:src="res/drawable-xxhdpi-v4/ic_delete_black.png" android:layout_weight="{4:1065353216}" style="@android:style/Widget.Material.Light.Button.Borderless.Small" />
+		</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

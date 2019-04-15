@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="134" android:versionName="52.0" package="com.bikinaplikasi.geesproduction">
+	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="26" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+	<uses-feature android:glEsVersion="0x20000" android:required="true" />
+	<permission android:name="com.bikinaplikasi.geesproduction.permission.C2D_MESSAGE" android:protectionLevel="0x2" />
+	<uses-permission android:name="com.bikinaplikasi.geesproduction.permission.C2D_MESSAGE" />
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+	<uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+	<uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+	<uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+	<uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+	<uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" />
+	<uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" />
+	<uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
+	<uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+	<uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+	<uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+	<uses-permission android:name="android.permission.READ_APP_BADGE" />
+	<uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+	<uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" />
+	<uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+	<uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+	<application android:theme="resourceId:0x7f0f000a" android:label="GEES" android:icon="res/drawable/ico.png" android:name="com.bikinaplikasi.onlineshop.notification.BaosApplication" android:allowBackup="true" android:supportsRtl="true" android:usesCleartextTraffic="true" android:networkSecurityConfig="res/xml/network_security_config.xml">
+		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyANQK3rwDHJagu18RHf3rPKBTbwHa4Wn7Q" />
+		<meta-data android:name="com.onesignal.NotificationOpened.DEFAULT" android:value="DISABLE" />
+		<meta-data android:name="com.google.android.gms.version" android:value="12211000" />
+		<meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="barcode" />
+		<service android:name="com.bikinaplikasi.onlineshop.notification.BaosNotificationExtenderService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false">
+			<intent-filter>
+				<action android:name="com.onesignal.NotificationExtender" />
+			</intent-filter>
+		</service>
+		<activity android:theme="resourceId:0x7f0f000c" android:name="com.bikinaplikasi.onlineshop.MainActivity" android:exported="true" android:screenOrientation="portrait" android:windowSoftInputMode="0x2" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.BarangActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x2" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.KeranjangActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x2" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.PengirimanActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x2" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.OrderActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.KategoriActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.CariActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x4" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.FinishActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.CekStatusActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.CekOngkirActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.TentangActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.HubungiActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.InfoActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.PromoActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.PembayaranActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.LoginActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x2">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.RegisterActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.AccountActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.HistoryActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.KonfirmasiActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.PemberitahuanActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.ChatActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.GambarActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.LokasiActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.PesananActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.EVoucherActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.TopUpActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.WebViewActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.UpgradeActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.FavoritActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.HistorySaldoActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.TestimoniActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f0f000c" android:name="com.bikinaplikasi.onlineshop.activity.MainFragmentActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x2">
+			<intent-filter>
+				<data android:scheme="http" android:host="geesproduction.situsbelanja.com" android:pathPrefix="/p-" />
+				<data android:scheme="http" android:host="geesproduction.olshp.com" android:pathPrefix="/p-" />
+				<data android:scheme="https" android:host="geesproduction.situsbelanja.com" android:pathPrefix="/p-" />
+				<data android:scheme="https" android:host="geesproduction.olshp.com" android:pathPrefix="/p-" />
+				<data android:scheme="belanja" android:host="geesproduction.situsbelanja.com" android:pathPrefix="/p-" />
+				<data android:scheme="belanja" android:host="geesproduction.olshp.com" android:pathPrefix="/p-" />
+				<data android:scheme="http" android:host="domainbikinaplikasionlineshop.com" android:pathPrefix="/p-" />
+				<data android:scheme="https" android:host="domainbikinaplikasionlineshop.com" android:pathPrefix="/p-" />
+				<data android:scheme="http" android:host="www.domainbikinaplikasionlineshop.com" android:pathPrefix="/p-" />
+				<data android:scheme="https" android:host="www.domainbikinaplikasionlineshop.com" android:pathPrefix="/p-" />
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.ShowQRActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.DeviceListActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.bikinaplikasi.onlineshop.activity.PrintActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f0f000e" android:name="com.bikinaplikasi.onlineshop.activity.QRScannerActivity" android:screenOrientation="portrait" />
+		<meta-data android:name="android.support.VERSION" android:value="26.1.0" />
+		<meta-data android:name="onesignal_app_id" android:value="ca9ded5a-33d3-4a83-ad8b-ef4c7bbdd607" />
+		<meta-data android:name="onesignal_google_project_number" android:value="str:248506610111" />
+		<receiver android:name="com.onesignal.GcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+			<intent-filter android:priority="999">
+				<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+				<category android:name="com.bikinaplikasi.geesproduction" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+		<service android:name="com.onesignal.GcmIntentService" />
+		<service android:name="com.onesignal.GcmIntentJobService" android:permission="android.permission.BIND_JOB_SERVICE" />
+		<service android:name="com.onesignal.SyncJobService" android:permission="android.permission.BIND_JOB_SERVICE" />
+		<service android:name="com.onesignal.RestoreJobService" android:permission="android.permission.BIND_JOB_SERVICE" />
+		<service android:name="com.onesignal.RestoreKickoffJobService" android:permission="android.permission.BIND_JOB_SERVICE" />
+		<service android:name="com.onesignal.SyncService" />
+		<activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.onesignal.PermissionsActivity" />
+		<service android:name="com.onesignal.NotificationRestoreService" />
+		<receiver android:name="com.onesignal.BootUpReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.ACTION_BOOT_COMPLETED" />
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+				<action android:name="android.intent.action.QUICKBOOT_POWERON" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.onesignal.UpgradeReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+			</intent-filter>
+		</receiver>
+		<activity android:theme="@android:style/Theme.Translucent" android:name="com.google.android.gms.ads.AdActivity" android:exported="false" android:configChanges="0xfb0" />
+		<activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" />
+		<meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT" />
+	</application>
+</manifest>

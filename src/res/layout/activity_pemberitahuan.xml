@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1">
+				<WebView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+			</android.support.v4.widget.SwipeRefreshLayout>
+			<TextView android:textAppearance="{2:16842818}" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text=" " />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

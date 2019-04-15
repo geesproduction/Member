@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="0x10" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:gravity="0x1" android:orientation="1" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+				<ImageView android:id="false" android:layout_width="250dp" android:layout_height="250dp" android:adjustViewBounds="true" app:srcCompat="res/drawable/no_image.png" />
+				<TextView android:textStyle="0x1" android:gravity="0x1" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5dp" android:text="Scan untuk melihat produk" android:textAllCaps="true" />
+				<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/rounded_button_layout.xml" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp">
+					<Button android:textColor="ffffff" android:id="false" android:background="res/drawable/rounded_button.xml" android:layout_width="-1" android:layout_height="-2" android:text="Simpan QR Code" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

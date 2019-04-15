@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<fragment android:name="com.google.android.gms.maps.SupportMapFragment" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" />
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+		<LinearLayout android:orientation="1" android:background="ffffff" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="5dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Biaya Kirim" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+					<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+				</RelativeLayout>
+				<TextView android:textAppearance="{2:16842818}" android:textStyle="0x1" android:layout_gravity="0x5" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " fontPath="fonts/Montserrat-Bold.ttf" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/rounded_button_layout.xml" android:layout_width="-1" android:layout_height="-1">
+				<Button android:textColor="ffffff" android:id="false" android:background="res/drawable/rounded_button.xml" android:layout_width="-1" android:layout_height="-2" android:text="Pilih Lokasi" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/rounded_bg_trans.xml" android:padding="5dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp" android:layout_above="false" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+		<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+	</LinearLayout>
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/ic_pin_red.png" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+	<ProgressBar android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:layout_above="false" android:layout_centerHorizontal="true" style="{2:16842873}" />
+</RelativeLayout>

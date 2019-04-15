@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="res/drawable/rounded_bg.xml" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:layout_gravity="0x1" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+		<ImageView android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:src="res/drawable-xxhdpi-v4/ic_add_shopping_cart_black.png" />
+		<TextView android:textAppearance="{2:16842818}" android:layout_gravity="0x1" android:id="false" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:text=" " />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<Button android:textAppearance="resourceId:0x7f0f00f2" android:id="false" android:background="res/drawable/button_light.xml" android:layout_width="-1" android:layout_height="-2" android:text="Lanjutkan Belanja" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0083" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:id="false" android:background="000" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<Button android:textAppearance="resourceId:0x7f0f00f2" android:textColor="ffffff" android:id="false" android:background="res/drawable/button_trans.xml" android:layout_width="-1" android:layout_height="-2" android:text="Selesai Belanja" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0083" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

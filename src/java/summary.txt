@@ -1,0 +1,16 @@
+Summary for /storage/emulated/0/show-java/sources/com.bikinaplikasi.geesproduction/jar-files/1.jar
+Decompiled with CFR 0.0
+
+
+com.bikinaplikasi.onlineshop.helper.JSONParser
+----------------------------
+
+makeHttpRequest(java.lang.String java.lang.String java.util.HashMap<java.lang.String, java.lang.String> )
+  Unable to fully structure code
+
+
+com.bikinaplikasi.onlineshop.helper.Uploader
+----------------------------
+
+uploadFile(java.lang.String java.lang.String java.lang.String )
+  Unable to fully structure code

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_below="false">
+		<GridView android:id="false" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="60dp" android:scrollbars="0x0" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:drawSelectorOnTop="true" android:horizontalSpacing="20dp" android:verticalSpacing="20dp" android:numColumns="2" />
+	</android.support.v4.widget.SwipeRefreshLayout>
+	<LinearLayout android:gravity="0x1" android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5dp" android:layout_alignParentBottom="true">
+		<ProgressBar android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="3dp" style="{2:16842873}" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:background="000" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_alignParentBottom="false" android:layout_centerHorizontal="true">
+		<TextView android:textColor="ffffff" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Favorit" style="resourceId:0x7f0f0036" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:background="ffffff" android:padding="10dp" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_below="false" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+		<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/ic_favorite_border_black.png" />
+		<TextView android:textColor="000" android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text="Produk yang kamu favoritkan akan muncul di sini" />
+	</LinearLayout>
+</RelativeLayout>

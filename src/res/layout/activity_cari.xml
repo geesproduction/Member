@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+			<EditText android:textAppearance="{2:16842818}" android:id="false" android:background="ffffff" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:hint="Mau cari apa?" android:singleLine="true" android:drawableLeft="res/drawable-xxhdpi-v4/ic_search_black_small.png" android:layout_weight="{4:1065353216}" android:inputType="0x1" android:imeOptions="0x3" />
+			<ImageButton android:id="false" android:background="res/drawable/button_trans.xml" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:layout_weight="{4:0}" app:srcCompat="res/drawable-xxhdpi-v4/ic_crop.png" />
+		</LinearLayout>
+		<LinearLayout android:background="dddddd" android:layout_width="-1" android:layout_height="1dp" />
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+			<Button android:textAppearance="resourceId:0x7f0f002c" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Filter" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0166" />
+			<LinearLayout android:orientation="1" android:background="dddddd" android:layout_width="1dp" android:layout_height="-1" />
+			<Button android:textAppearance="resourceId:0x7f0f002c" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Urutkan" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0166" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="dddddd" android:layout_width="-1" android:layout_height="1dp" />
+	</LinearLayout>
+	<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_below="false">
+		<GridView android:id="false" android:padding="10dp" android:scrollbars="0x0" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:drawSelectorOnTop="true" android:horizontalSpacing="20dp" android:verticalSpacing="20dp" android:numColumns="2" />
+	</android.support.v4.widget.SwipeRefreshLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:layout_below="false" android:layout_alignParentBottom="true">
+		<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textAppearance="{2:16842818}" android:id="false" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:text="Riwayat Pencarian" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+			<Button android:textAppearance="resourceId:0x7f0f00f2" android:textStyle="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="HAPUS" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="resourceId:0x7f0f0084" />
+		</RelativeLayout>
+		<ListView android:id="false" android:background="ffffff" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" android:drawSelectorOnTop="true" android:divider="resourceId:0x106000d" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x1" android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+		<ProgressBar android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="3dp" style="{2:16842873}" />
+	</LinearLayout>
+</RelativeLayout>

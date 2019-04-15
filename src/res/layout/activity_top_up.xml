@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+		<LinearLayout android:orientation="1" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp">
+				<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Saldo saat ini" />
+				<TextView android:textAppearance="{2:16842817}" android:textStyle="0x1" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" />
+				<TextView android:textAppearance="{2:16842818}" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Jumlah penambahan" />
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+					<EditText android:textAppearance="resourceId:0x7f0f00f2" android:layout_gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="10000" android:ems="10" android:maxLength="8" android:digits="0123456789" android:layout_toRightOf="false" android:layout_centerVertical="true" android:inputType="0x1002" />
+					<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Rp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+				</RelativeLayout>
+				<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/rounded_button_layout.xml" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="10dp">
+					<Button android:textColor="ffffff" android:layout_gravity="0x1" android:id="false" android:background="res/drawable/rounded_button.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Tambah Saldo" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

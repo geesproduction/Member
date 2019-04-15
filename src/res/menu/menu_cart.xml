@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:icon="res/drawable-xxhdpi-v4/ic_info_white.png" android:id="false" android:title="Tentang Aplikasi" app:showAsAction="0x2" />
+	<item android:icon="res/mipmap-xxxhdpi-v4/ic_cart_notif.png" android:id="false" android:title="Keranjang Belanja" app:showAsAction="0x2" />
+</menu>

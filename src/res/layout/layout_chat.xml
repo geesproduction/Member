@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/bubble_admin.xml" android:padding="10dp" android:layout_width="-2" android:layout_height="-2">
+			<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+				<TextView android:textAppearance="{2:16842818}" android:textStyle="0x1" android:textColor="ffffff" android:textColorHighlight="dddddd" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxWidth="200dp" />
+				<LinearLayout android:orientation="1" android:background="dddddd" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" />
+			</LinearLayout>
+			<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxWidth="200dp" android:minWidth="80dp" />
+			<TextView android:textAppearance="{2:16842818}" android:textSize="10dp" android:textStyle="0x2" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

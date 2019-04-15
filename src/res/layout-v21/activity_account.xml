@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+		<LinearLayout android:orientation="0" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textAppearance="{2:16842818}" android:textSize="12sp" android:textColor="000" android:gravity="0x10" android:layout_gravity="0x11" android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:text=" " android:singleLine="true" android:drawableLeft="res/drawable-xxhdpi-v4/ic_account_balance_wallet_black.png" android:layout_weight="{4:1077936128}" fontPath="fonts/Montserrat-Regular.ttf" />
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1077936128}" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+				<Button android:textAppearance="resourceId:0x7f0f00f2" android:textSize="10sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Tambah" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084" />
+				<Button android:textAppearance="resourceId:0x7f0f00f2" android:textSize="10sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Riwayat" android:layout_weight="{4:1065353216}" style="resourceId:0x7f0f0084" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="dddddd" android:layout_width="-1" android:layout_height="1dp" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-1" android:layout_below="false">
+		<ScrollView android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+				<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+					<LinearLayout android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+						<LinearLayout android:orientation="1" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+							<de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="0x11" android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="10dp" android:src="res/drawable/default_profile.png" />
+							<EditText android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:ems="10" android:inputType="0x61" fontPath="fonts/Montserrat-Bold.ttf" />
+							<EditText android:textAppearance="resourceId:0x7f0f002c" android:id="false" android:focusableInTouchMode="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:ems="10" android:drawableLeft="res/drawable-xxhdpi-v4/ic_mail_black.png" android:drawablePadding="10dp" android:inputType="0x21" />
+							<EditText android:textAppearance="resourceId:0x7f0f002c" android:id="false" android:layout_width="-1" android:layout_height="-2" android:ems="10" android:drawableLeft="res/drawable-xxhdpi-v4/ic_call_black.png" android:drawablePadding="10dp" android:inputType="0x2" />
+							<EditText android:textAppearance="resourceId:0x7f0f002c" android:gravity="0x10" android:id="false" android:layout_width="-1" android:layout_height="-2" android:lines="2" android:ems="10" android:drawableLeft="res/drawable-xxhdpi-v4/ic_home_black.png" android:drawablePadding="10dp" android:inputType="0x20001" />
+							<LinearLayout android:layout_gravity="0x1" android:orientation="1" android:id="false" android:background="res/drawable/rounded_button_layout.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+								<Button android:textAppearance="resourceId:0x7f0f002c" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:background="res/drawable/rounded_button.xml" android:layout_width="-1" android:layout_height="-2" android:text="Simpan" />
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="10dp" />
+					<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:padding="10dp" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+						<TextView android:textAppearance="{2:16842817}" android:textStyle="0x1" android:textColor="000" android:gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Alamat Pengiriman" android:drawableLeft="res/drawable-xxhdpi-v4/ic_local_shipping_black.png" android:drawablePadding="10dp" />
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Nama Penerima" />
+						<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:ems="10" android:singleLine="true" android:inputType="0x20001" />
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Telepon" />
+						<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:ems="10" android:singleLine="true" android:digits="0123456789" android:inputType="0x1002" />
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Alamat Lengkap" />
+						<EditText android:gravity="0x30" android:id="false" android:layout_width="-1" android:layout_height="-2" android:maxLines="5" android:lines="5" android:ems="10" android:inputType="0x20001" />
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Provinsi" />
+						<Spinner android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="50dp" />
+						<ProgressBar android:layout_gravity="0x1" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:indeterminate="true" android:indeterminateTintMode="15" style="{2:16842872}" />
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Kota / Kabupaten" />
+						<Spinner android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="50dp" />
+						<ProgressBar android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:indeterminate="true" android:indeterminateTintMode="15" style="{2:16842872}" />
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Kecamatan" />
+						<Spinner android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="50dp" />
+						<ProgressBar android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:indeterminate="true" android:indeterminateTintMode="15" style="{2:16842872}" />
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Kode Pos" />
+						<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:digits="0123456789" android:inputType="0x73" />
+						<LinearLayout android:layout_gravity="0x1" android:orientation="1" android:id="false" android:background="res/drawable/rounded_button_layout.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+							<Button android:textAppearance="resourceId:0x7f0f002c" android:textStyle="0x1" android:textColor="ffffff" android:layout_gravity="0x1" android:id="false" android:background="res/drawable/rounded_button.xml" android:layout_width="-1" android:layout_height="-2" android:text="Simpan Alamat" style="{2:16842825}" />
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="10dp" />
+					<LinearLayout android:orientation="1" android:background="ffffff" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+						<TextView android:textAppearance="{2:16842817}" android:textStyle="0x1" android:textColor="000" android:gravity="0x10" android:layout_gravity="0x3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Ubah Password" android:drawableLeft="res/drawable-xxhdpi-v4/ic_lock.png" android:drawablePadding="10dp" />
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Password Lama" />
+						<EditText android:textAppearance="resourceId:0x7f0f002c" android:id="false" android:layout_width="-1" android:layout_height="-2" android:ems="10" android:inputType="0x81" />
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Password Baru" />
+						<EditText android:textAppearance="resourceId:0x7f0f002c" android:id="false" android:layout_width="-1" android:layout_height="-2" android:ems="10" android:inputType="0x81" />
+						<TextView android:textAppearance="{2:16842818}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Ulangi Password Baru" />
+						<EditText android:textAppearance="resourceId:0x7f0f002c" android:id="false" android:layout_width="-1" android:layout_height="-2" android:ems="10" android:inputType="0x81" />
+						<LinearLayout android:layout_gravity="0x1" android:orientation="1" android:id="false" android:background="res/drawable/rounded_button_layout.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+							<Button android:textAppearance="resourceId:0x7f0f002c" android:textStyle="0x1" android:textColor="ffffff" android:layout_gravity="0x1" android:id="false" android:background="res/drawable/rounded_button.xml" android:layout_width="-1" android:layout_height="-2" android:text="Ubah Password" style="{2:16842825}" />
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout android:orientation="0" android:background="ff5555" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="10dp">
+						<Button android:textAppearance="resourceId:0x7f0f002c" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:background="res/drawable/button_trans.xml" android:layout_width="-1" android:layout_height="-2" android:text="Logout" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+</RelativeLayout>

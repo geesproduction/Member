@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<WebView android:layout_gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+			<LinearLayout android:orientation="1" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+				<Button android:textStyle="0x1" android:gravity="0x13" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="SMS:" android:drawableLeft="res/drawable-xxhdpi-v4/ic_sms.png" android:drawablePadding="10dp" style="resourceId:0x7f0f0084" />
+				<Button android:textStyle="0x1" android:gravity="0x13" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="WhatsApp:" android:drawableLeft="res/drawable-xxhdpi-v4/ic_wa.png" android:drawablePadding="10dp" style="resourceId:0x7f0f0084" />
+				<Button android:textStyle="0x1" android:gravity="0x13" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="BBM:" android:drawableLeft="res/drawable-xxhdpi-v4/ic_bbm.png" android:drawablePadding="10dp" style="resourceId:0x7f0f0084" />
+				<Button android:textStyle="0x1" android:gravity="0x13" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="LINE: " android:drawableLeft="res/drawable-xxhdpi-v4/ic_line.png" android:drawablePadding="10dp" style="resourceId:0x7f0f0084" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>
